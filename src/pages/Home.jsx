@@ -56,7 +56,7 @@ const Home = () => {
                 />)
             }
             <div className="scroll">
-                <span>Scroll to see effect</span>
+                <span>Scroll</span>
             </div>
         </>
     )

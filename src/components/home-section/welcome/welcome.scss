@@ -7,7 +7,7 @@
 
     &__info,
     &__img {
-        width: 50%;
+        width: 60%;
         height: 100%;
     }
 
@@ -18,11 +18,12 @@
             padding-left: 15rem;
 
             .description {
-                font-size: 1rem;
+                padding-left: 0rem;
+                font-size: 1.5rem;
             }
 
             .btns > * ~ * {
-                margin-left: 1rem;
+                margin-left: 1.2rem;
             }
         }
     }
@@ -31,7 +32,7 @@
         @include flex(flex-end, flex-start);
 
         &__slide {
-            height: 915px;
+            height: 810px;
             width: 915px;
             overflow: hidden;
 

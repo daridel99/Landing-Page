@@ -38,7 +38,7 @@ a {
 }
 
 iframe {
-    border: 0;
+    border: 1;
 }
 
 #root,
@@ -75,9 +75,10 @@ iframe {
 }
 
 .title {
-    font-weight: 700;
+    font-weight: 750;
+    width: 850px;
     span {
-        font-size: 3rem;
+        font-size: 3.2rem;
     }
     h2 {
         font-size: 5rem;
